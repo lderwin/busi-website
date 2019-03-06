@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Busi</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400|IBM+Plex+Sans:400,400i,700"></script>
+    </head>
+    <body>
+        <h1>Busi</h1>
+        <hr>
+        <h2>Never enter a crowded bus again!</h2>
+        <h3>An Irish app, developed by Brendan Mannion, Lara Murphy, Luke Derwin, Tony Reidy, and Moussa Traore.</h3>
+        <img src="img/promo.png" width="500em">
+
+      <div class="content">
+        <h2>Contact us:</h2>
+        <form action="https://formspree.io/busi@email.com" method="post">
+          <table>
+            <tr>
+              <th><label for="contact-name">Your Name</label></th>
+              <th><input id="contact-name" placeholder="name" type="text" name="contact-name" class="text"></th>
+            </tr>
+            <tr>
+              <th><label for="contact-email">Your email address</label></th>
+              <th><input id="contact-email" placeholder="email address" type="email" name="contact-email" class="text"></th>
+            </tr>
+            <tr>
+              <th><label for="contact-phone">Your phone number</label></th>
+              <th><input id="contact-phone" placeholder="phone number" type="tel" name="contact-phone" class="text"></th>
+            </tr>
+          </table>
+          <p>
+            <textarea placeholder="Your Message" id="contact-message" name="contact-message" class="text" cols="30"
+              rows="1" onkeyup="AutoGrowTextArea(this)"></textarea>
+          </p>
+          <p><input type="submit" class="button" value="Send" style="color: white;" /> </p>
+        </form>
+      </div>
+    </body>
+</html>
