@@ -34,3 +34,7 @@ textarea {
     background-color: darkslategray;
     color: white;
 }
+
+ul {
+  list-style-type: none;
+}
