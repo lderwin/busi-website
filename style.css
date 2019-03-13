@@ -43,6 +43,11 @@ textarea {
 }
 
 table {
-    background-color: darkslategray;
+    background-color: lightblue;
     color: white;
+}
+
+th {
+    border-style: solid;
+    border-color: white;
 }
