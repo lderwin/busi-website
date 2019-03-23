@@ -38,3 +38,13 @@ textarea {
     background-color: darkslategray;
     color: white;
 }
+
+table {
+    background-color: lightblue;
+    color: white;
+}
+
+td {
+    border-style: solid;
+    border-color: white;
+}
