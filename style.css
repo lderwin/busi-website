@@ -44,6 +44,11 @@ div.navbar {
     color: white;
 }
 
+div.content {
+    background-color: lightblue;
+    color: white;
+}
+
 td {
     border-style: solid;
     border-color: white;
